@@ -1,0 +1,50 @@
+# GitPitch In-60-Seconds - A Very Short Tutorial.
+#
+
+#
+# Theme Setting
+# Doc: https://gitpitch.com/docs/settings/theme
+#
+theme : simple
+
+#
+# Theme-Override Setting
+# Doc: https://gitpitch.com/docs/settings/custom-theme
+#
+theme-override: assets/css/PITCHME.css
+
+#
+# Logo Setting
+# https://gitpitch.com/docs/settings/logo
+#
+logo : assets/img/donders.png
+logo-position : top-right
+
+# logo : assets/img/radboudumcs.png
+# logo-position : top-right
+
+#
+# Layout Setting
+# Doc: https://gitpitch.com/docs/settings/layout
+#
+layout : center
+
+#
+# Footnote Setting
+# Doc: https://gitpitch.com/docs/settings/footnote
+#
+footnote : "Can fecal microbiota composition predict executive functioning in children?"
+
+#
+# Published Setting
+# Doc: https://gitpitch.com/docs/settings/published
+#
+published : true
+
+#
+# Twitter Card Settings [Pro Only]
+# Doc: https://gitpitch.com/docs/settings/twitter-card
+#
+title : "Can fecal microbiota composition predict executive functioning in children?"
+description : ""
+thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png

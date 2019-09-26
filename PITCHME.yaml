@@ -1,0 +1,26 @@
+theme : template
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Oswald", "#000000", "none" ]
+theme-byline     : [ "Lato", "#111111", "none" ]
+theme-text       : [ "Lato", "#1C1C1C", "none" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Source Code Pro" ]
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "0", "15px" ]
+
+theme-override : assets/css/PITCHME.css
+
+highlight        : tomorrow
+
+logo : assets/img/donders.png
+logo-position : top-right
+
+layout : center
+
+footnote : "Can fecal microbiota composition predict executive functioning in children?"
+title : "Can fecal microbiota composition predict executive functioning in children?"
+
+
+published : true
+description : ""
+thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
