@@ -153,6 +153,11 @@ The hippocampus plays a crucial role in learning and memory, and its function in
 
 +++
 
+
+@img[](assets/img/otu_table.png)
+
++++
+
 @img[span-80](assets/img/carlson_cluster.png)
 
 
@@ -368,7 +373,7 @@ Note:
 
 ## Discussion
 
-- Bayesian GLM 2/20
+- Bayesian LM 2/20
 - no Clustering
 - Extremely Randomized Trees 2/20
 
