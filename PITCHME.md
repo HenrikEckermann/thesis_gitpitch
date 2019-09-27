@@ -154,7 +154,7 @@ The hippocampus plays a crucial role in learning and memory, and its function in
 +++
 
 
-@img[](assets/img/otu_table.png)
+@img[](assets/img/otus_table.png)
 
 +++
 
