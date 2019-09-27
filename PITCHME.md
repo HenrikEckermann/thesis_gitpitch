@@ -107,10 +107,13 @@ Carlson:
 - minimal association between the gut microbiota and brain volume
 - negative association between AD and ELC (5-23% variance explained) depending on index
 
+Note on Mullen:
+The Mullen has good standardization and reliability data, with median internal consistency scores ranging between 0.75 and 0.91, and test-retest correlations over 0.82 for 1-25 months
+
 
 +++ 
 
-## Animal Models
+## Animal studies
 
 1. Stress and emotion 
 2. Learning and memory
@@ -141,11 +144,28 @@ The hippocampus plays a crucial role in learning and memory, and its function in
 
 +++
 
+
+
+@snap[midpoint span-75]
+## Human Study
+@img[](assets/img/bio_psy.png)
+@snapend
+
++++
+
 @img[span-80](assets/img/carlson_cluster.png)
+
 
 +++
 
 @img[add-border-img span-60](assets/img/mullen_cluster.png)
+
++++
+
+@img[add-border-img span-90](assets/img/mullensub_cluster.png)
+
+
+
 
 
 +++
@@ -268,7 +288,7 @@ How can I explain the missingness in the paper when I say we start with 192 moth
 
 - Extremely randomized trees
 - K-means clustering
-- Bayesian GLM
+- Bayesian LM
 
 Note:
 
@@ -333,7 +353,7 @@ Note:
 +++
 
 @snap[north]
-## Bayesian GLM
+## Bayesian LM
 @snapend
 
 @snap[south-west span-50]
