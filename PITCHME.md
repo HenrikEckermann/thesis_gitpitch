@@ -9,6 +9,7 @@
 #### Can fecal microbiota composition predict executive functioning in children?
 @snapend
 
+
 @snap[mid dtext text-07]
 Henrik Eckermann
 @snapend
@@ -25,6 +26,9 @@ Henrik Eckermann
 ![](assets/img/ruumc.png)
 @snapend
 
+
+Note:  
+- Please interrupt if unclear terminology
 
 
 ---
@@ -66,6 +70,18 @@ Note:
 
 +++
 
+## Previous research
+
+- Animal studies ([Sarkar et al, 2018](https://www.ncbi.nlm.nih.gov/pubmed/29907531))
+- Human study ([Carlson et al, 2018](https://www.ncbi.nlm.nih.gov/pubmed/28793975))
+
+
+
+Note:  
+
+
++++
+
 @snap[north span-100]
 
 ## Gut Brain Axis  
@@ -76,55 +92,17 @@ Note:
 @img[span-80](assets/img/gutbrainaxis.png) 
 @snapend
 
-Note:  
-- endocrine-, 
-- neurocrine- and 
-- immune-related signals that can influence the development and functioning of the brain
-
-
-+++
-
-## Previous research
-
-
-- Animal studies ([Sarkar et al, 2018](https://www.ncbi.nlm.nih.gov/pubmed/29907531))
-- Human study ([Carlson et al, 2018](https://www.ncbi.nlm.nih.gov/pubmed/28793975))
-
-
-
-Note:  
-
-
-
-Carlson:
-- n = 89 infants, 86 for Mullen 1 year and 69 Mullen two year
-- Mullen: 5 scales: gross motor, fine motor, visual reception, expressive language, receptive language. except the gross motor skill combined to Early learning composite score
-- MB at 1 year age
-- Mullen Scales of Early Learning + global and regional brain volumes using structural MRI at 1 + 2 years of age
-- cluster analysis identiefied 3 groups
-- Mullen scores at 2 years differed between clusters: C2 (high in Bacteroides) highest performance in 90th percentile, C1 (high levels of Faecalibacterium) lowest (72th percentile)
-- higher alhpa diversity ;rarr& lower overall composite score at age 2
-- minimal association between the gut microbiota and brain volume
-- negative association between AD and ELC (5-23% variance explained) depending on index
-
-Note on Mullen:
-The Mullen has good standardization and reliability data, with median internal consistency scores ranging between 0.75 and 0.91, and test-retest correlations over 0.82 for 1-25 months
-
-
-+++ 
-
-## Animal studies
-
-1. Stress and emotion 
-2. Learning and memory
-3. Social behavior
-4. Autism 
 
 @snap[south-east snap-pad-bottom-right span-20]
 @img[border-img](assets/img/germ_free.png)
 @snapend
 
 Note:
+- germ free + manipulation strategies 
+- early life cirtical periods of cross talk between gut&brain
+
+
+
 To that extent, we describe microbial contributions to four phenomena of interest to cognitive scientists and psychologists, including (i) stress and emotion, (ii) learning and memory, (iii) social behavior, and (iv) autism.
 
 
@@ -151,14 +129,27 @@ The hippocampus plays a crucial role in learning and memory, and its function in
 @img[](assets/img/bio_psy.png)
 @snapend
 
-+++
+Note:
+
+- n = 89 (69)
+- limitation: one sample
+- alpha neg associated with ELC score 
+
+Carlson:
+- n = 89 infants, 86 for Mullen 1 year and 69 Mullen two year
+- Mullen: 5 scales: gross motor, fine motor, visual reception, expressive language, receptive language. except the gross motor skill combined to Early learning composite score
+- MB at 1 year age
+- Mullen Scales of Early Learning + global and regional brain volumes using structural MRI at 1 + 2 years of age
+- cluster analysis identified 3 groups
+- Mullen scores at 2 years differed between clusters: C2 (high in Bacteroides) highest performance in 90th percentile, C1 (high levels of Faecalibacterium) lowest (72th percentile)
+- higher alhpa diversity ;rarr& lower overall composite score at age 2
+- minimal association between the gut microbiota and brain volume
+- negative association between AD and ELC (5-23% variance explained) depending on index
+
+Note on Mullen:
+The Mullen has good standardization and reliability data, with median internal consistency scores ranging between 0.75 and 0.91, and test-retest correlations over 0.82 for 1-25 months
 
 
-@img[](assets/img/otus_table.png)
-
-+++
-
-@img[span-80](assets/img/carlson_cluster.png)
 
 
 +++
@@ -184,7 +175,7 @@ The hippocampus plays a crucial role in learning and memory, and its function in
 
 @ol  
 
-- @fa[poop] &rarr; Random Forests &rarr; EF
+- @fa[poop] &rarr; Extremely randomized trees &rarr; EF
 - @fa[poop] &rarr; Clustering &rarr; EF differs between clusters  
 - @fa[poop] &rarr; Alpha-diversity &rarr; EF    
 
@@ -220,7 +211,6 @@ Shannon index measures how evenly the microbes are distributed in a sample.
 - promising target for intervention  
 - translation to human studies  
 - addressing shortcomings  
-- methods development 
 @ulend  
  
 
@@ -248,8 +238,8 @@ Note:
 
 Note:
 
-Question:  
-How can I explain the missingness in the paper when I say we start with 192 mothers but then I only mention that we have sample size x that is different for all stool samples.
+- 192 mothers
+- 108 - 134
 
 +++
 
@@ -284,6 +274,9 @@ How can I explain the missingness in the paper when I say we start with 192 moth
 @box[bg-donders-seven text-white text-08](10 years#Digit Span & BRIEF)
 @snapend
 
+Note:
+
+- hitchip: genus like level:  more than 90% sequence similarity referred to as species and relatives
 
 
 +++
@@ -331,7 +324,12 @@ EF:
 
 ## Extremely Randomized Trees
 
-@img[span-50](assets/img/varimp-rf4.png)
+
+
+
+Note:
+(r(50) = .24, p = .036) 75 days 
+(r(51) = .21, p = .034) 6 years 
 
 
 +++
@@ -373,15 +371,14 @@ Note:
 
 ## Discussion
 
-- Bayesian LM 2/20
-- no Clustering
-- Extremely Randomized Trees 2/20
+- clustering approach
+- taxonomic level 
+- functionality of the gut microbiota
 
 
 Note:
 - weak evidence
 - laboratory settings
-- clustering 
 - future: functional level + diverse EF measures
 
 ---
@@ -411,6 +408,17 @@ Questions?
 @snapend
 
 +++
+
+
+@img[](assets/img/otus_table.png)
+
++++
+
+@img[span-80](assets/img/carlson_cluster.png)
+
++++
+
+
 
 
 @snap[midpoint span-80]
